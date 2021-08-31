@@ -1,0 +1,113 @@
+#logop{
+    width: 50%;
+}
+#logouni{
+    
+    width: 8%;
+}
+.icons{
+    width: 5%;
+}
+
+#unico{
+    
+    color: yellow;
+    font-size: 100px;
+}
+.texto{
+    /* titulo desproyecto */
+    color:white;
+    font-size: 30px;
+}
+.text2{
+    color:white;
+    font-size: 12px; 
+}
+#inte{
+    justify-content:center;
+}
+.pie{
+    background-color: #DA0037;
+    text-align: center;
+}
+.columna{
+    color: white;
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.menu3{
+    display:inline-block;
+    background:#DA0037 ;
+    color:white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px yellow;
+    
+}
+.menu1{
+    display:inline-block;
+    background:yellow ;
+    color:black;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px yellow;
+    
+}
+.menu2{
+    display:inline-block;
+    background:blue ;
+    color:white;
+    
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px yellow;
+    
+}
+.menu:hover{
+    background: tomato;
+}
+nav{
+    /* background-color: #444444; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid yellow;
+    font-weight: bolder;
+    font-style: initial;
+    font-family: ;
+}
+
+}
+button{
+    background:#DA0037 ;
+    color:white;
+}
+button:hover{
+    background:tomato;
+    color: white;
+}
+button:active{
+    background: yellow;
+}
+@media(max-width:609px) {
+    nav{
+        
+        flex-direction: column;
+    }
+    .menu{
+        margin: 8px 0;
+        /* border: 1px solid black; */
+    }
+    #logouni{
+        width: 0%;
+
+    }
+    #logop{
+        width: 100%;
+    }
+
+
+
+
+}
